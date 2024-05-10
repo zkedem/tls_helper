@@ -1,0 +1,17 @@
+Usage: %s PORT [OPTIONS]
+
+	-4            Only accept IPv4 connections
+	-6            Only accept IPv6 connections
+	-C CERTFILE   Load public key from CERTFILE (default is %s)
+	-c            Use CR+LF as line ending
+	-e PROG ARGS  Run PROG with ARGS after connect (must be last)
+	-ew PROG ARGS Same as -e, but wait for client input before running PROG
+	-fi FILE      Read input from FILE; cannot be used with -kd
+	-fo FILE      Write output to FILE; cannot be used with -kd
+	-h            Print this help message
+	-K KEYFILE    Load private key from KEYFILE (default is %s)
+	-k            Keep alive; do not quit after just one connection
+	-kd           Same as -k, but runs in background as daemon; must be
+	              used with -e or -ew
+	-n            Do not resolve service names to port numbers
+	-q LENGTH     Queue length (default is %i)

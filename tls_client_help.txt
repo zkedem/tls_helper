@@ -1,0 +1,13 @@
+Usage: %s HOST PORT [OPTIONS]
+
+	-4            Only use IPv4 addresses
+	-6            Only use IPv6 addresses
+	-c            Use CR+LF as line ending
+	-e PROG ARGS  Run PROG with ARGS after connect (must be last)
+	-ew PROG ARGS Same as -e, but wait for server input before running PROG
+	-fi FILE      Read input from FILE
+	-fo FILE      Write output to FILE
+	-h            Print this help message
+	-n            Do not resolve domain names to IP addresses or service
+	              names to port numbers
+	-R CAFILE     Load root CA bundle from CAFILE
